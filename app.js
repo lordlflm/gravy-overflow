@@ -47,6 +47,7 @@ console.log(`Server start time: ${startTime.toISOString()}`);
 
 server.listen(PORT, '0.0.0.0', async () => {
   console.log(`Server listening on port ${PORT}`);
+  console.log('secret');
   await logPublicIP();
 });
 
